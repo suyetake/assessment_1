@@ -6,7 +6,7 @@ class CreditCard
     @balance = 0.00
   end
 
-  # okay to reuse same variable name "amount"
+  # okay to reuse same parameter name "amount"
   # because it is private to each method
 
   # add a charge amount to the
