@@ -6,7 +6,18 @@ class CreditCard
     @balance = 0.00
   end
 
+  # okay to reuse same variable name "amount"
+  # because it is private to each method
+
+  # add a charge amount to the
+  # CreditCard object's balance
   def charge(amount)
     @balance += amount
+  end
+
+  # subtract a payment amount from
+  # CreditCard object's balance
+  def payment(amount)
+    @balance -= amount
   end
 end
